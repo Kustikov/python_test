@@ -1,4 +1,4 @@
-# file: .github/workflows/hello-world.yml
+# file: .github/workflows/pyci.yml
 name: python_test
 # on – определяет события, которые запускают воркфлоу
 on: push
@@ -13,9 +13,7 @@ jobs:
       # checkout – клонирует репозиторий
       - uses: actions/checkout@v3
       # run – произвольная bash-команда
-      # Выведет на экран 'Hello, World!'
-      - run: make test
-             make test-coverage
-             make install
+      # 
+      - run: make say-hello
 
 
