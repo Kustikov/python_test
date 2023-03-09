@@ -17,5 +17,5 @@ jobs:
       - run: make test
              make test-coverage
              make install
-~
+
 
