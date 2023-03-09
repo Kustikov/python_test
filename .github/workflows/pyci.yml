@@ -15,5 +15,7 @@ jobs:
       # run – произвольная bash-команда
       # 
       - run: pip install poetry
+      - run: make install
+      - run: make test
 
 
